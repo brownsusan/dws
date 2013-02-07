@@ -1,0 +1,57 @@
+		*{
+			color:grey
+			font:14px Helvetica;
+		}
+		
+		p{
+			color:#E01B6A; 
+			font:12px Helvetica;
+		}
+
+		ul li{
+			color:fuchsia;
+		}
+		
+		ol li{
+			color:fuchsia;
+		}
+
+		h1,h2,h3{
+			color:silver;
+		}
+		
+		.sentence{
+			color:gold;
+		}
+
+		#headline{
+			font-weight:normal;
+			font-style:italic;
+			font-family:verdana;
+			font-size:34px;
+			color:yellow;
+		}
+
+		.sentence:first-line{
+			color:blue;
+		}
+		
+		a:link{ 
+			color:red;
+		}
+		
+		a:visited{
+			color:green;
+		}
+		
+		a:hover{
+			color:purple;
+		}
+		
+		a:active{
+			color:orange
+		}
+		
+		p:first-line{
+			color:pink;
+		}
