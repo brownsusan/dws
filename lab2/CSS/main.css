@@ -4,10 +4,6 @@
 	background-color:#E5D9B8;
 }
 
-ul{
-	list-style-type: none;
-}
-
 p{
 	color:#8BA5C4; 
 	font:12px Helvetica;
@@ -20,21 +16,34 @@ p{
 
 ul li{
 	color:#4D6078;
+	list-style-type: none;
+	font:13px helvetica;
 }
 
 ol li{
 	color:#4D6078;
+	word-spacing: 2px;
 }
 
 h1,h2,h3{
 	text-transform:uppercase;
 	text-shadow: 2px 2px 2px #666;
-	color:#1B2B3D;
-	font: small caps italic 40px/1.5 verdana;
+	color:#112A47;
+	letter-spacing: .7em;
+}
+
+h1{
+	text-indent: 15px;
+	font: bold 35px/1.5 verdana;
+}
+
+h2{
+	font: 30px/1.5 verdana;
 }
 
 h3{
-	text-align:center
+	text-align:center;
+	font: 20px/1.5 verdana;
 }
 
 a:link{ 
@@ -46,9 +55,9 @@ a:visited{
 }
 
 a:hover{
-	color:purple;
+	color:#4D6078;
 }
 
 a:active{
-	color:orange
+	color:#8BA5C4;
 }
