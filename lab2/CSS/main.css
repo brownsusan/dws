@@ -5,6 +5,7 @@
 }
 
 p{
+	
 	color:#8BA5C4; 
 	font:12px Helvetica;
 	font-family:verdana;
@@ -29,7 +30,9 @@ h1,h2,h3{
 	text-transform:uppercase;
 	text-shadow: 2px 2px 2px #666;
 	color:#112A47;
+	background: rgba(19, 70, 127, 0.9);
 	letter-spacing: .7em;
+	width: 700px;
 }
 
 h1{
