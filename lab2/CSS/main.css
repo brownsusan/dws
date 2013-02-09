@@ -3,6 +3,10 @@
 	font:14px Helvetica;
 }
 
+ul{
+	list-style-type: none;
+}
+
 p{
 	color:#E01B6A; 
 	font:12px Helvetica;
@@ -14,28 +18,27 @@ ul li{
 }
 
 ol li{
-	color:fuchsia;
+	color:red;
 }
 
 h1,h2,h3{
-	color:silver;
-	font: italic 40px/1.5 verdana;
-}
-
-.sentence{
+	text-transform:uppercase;
+	text-shadow: 2px 2px 2px #666;
 	color:gold;
+	font: small caps italic 40px/1.5 verdana;
 }
 
 p{
-	font-weight:normal;
+	font-weight:bold;
 	font-style:italic;
 	font-family:verdana;
-	font-size:34px;
-	color:yellow;
+	font-size:14px;
+	line-height: 1.5;
+	color:gray;
 }
 
-.sentence:first-line{
-	color:blue;
+h3{
+	text-align:center
 }
 
 a:link{ 
