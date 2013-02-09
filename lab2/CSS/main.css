@@ -1,6 +1,7 @@
 *{
 	color:grey
 	font:14px Helvetica;
+	background-color:#E5D9B8;
 }
 
 ul{
@@ -8,33 +9,28 @@ ul{
 }
 
 p{
-	color:#E01B6A; 
+	color:#8BA5C4; 
 	font:12px Helvetica;
+	font-family:verdana;
+	font-size:14px;
+	line-height: 1.5;
+	color:gray;
+	width:700px;
 }
 
 ul li{
-	
-	color:fuchsia;
+	color:#4D6078;
 }
 
 ol li{
-	color:red;
+	color:#4D6078;
 }
 
 h1,h2,h3{
 	text-transform:uppercase;
 	text-shadow: 2px 2px 2px #666;
-	color:gold;
+	color:#1B2B3D;
 	font: small caps italic 40px/1.5 verdana;
-}
-
-p{
-	font-weight:bold;
-	font-style:italic;
-	font-family:verdana;
-	font-size:14px;
-	line-height: 1.5;
-	color:gray;
 }
 
 h3{
@@ -42,11 +38,11 @@ h3{
 }
 
 a:link{ 
-	color:red;
+	color:#4D6078;
 }
 
 a:visited{
-	color:green;
+	color:#7B96B8;
 }
 
 a:hover{
@@ -55,8 +51,4 @@ a:hover{
 
 a:active{
 	color:orange
-}
-
-p:first-line{
-	color:pink;
 }
