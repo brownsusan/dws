@@ -26,6 +26,11 @@ ol li{
 	word-spacing: 2px;
 }
 
+span{
+	font-size: 8px;
+	vertical-align: super;
+}
+
 h1,h2,h3{
 	text-transform:uppercase;
 	text-shadow: 2px 2px 2px #666;
@@ -33,6 +38,10 @@ h1,h2,h3{
 	background: rgba(19, 70, 127, 0.9);
 	letter-spacing: .7em;
 	width: 700px;
+}
+
+img{ 
+	opacity: 0.5;
 }
 
 h1{
