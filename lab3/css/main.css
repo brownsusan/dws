@@ -1,0 +1,111 @@
+body{
+	background: #F0E9CC;
+}
+
+#main-content{
+	width: 85%;
+	margin: auto;
+	background-color: black;
+}
+
+/*Navigation*/
+
+nav ul{
+	float: right;
+	list-style-type: none;
+	background-color:#A66F3F;
+	overflow: hidden;
+	width: 100%;
+	margin:0 auto;
+	padding: 3px 0px 3px;
+}
+
+nav a{
+	float: left;
+	text-align: center;
+	font: normal normal normal 14px/1.5 'Helvetica', 'Arial', sans-serif;
+	display: block;
+	width: 24.5%;
+	margin: auto;
+	padding: 10px 2px;
+	text-decoration: none;
+	line-height: 1.5em;
+	border-right: 1px solid #91ab3b;
+}
+/*End Navigation*/
+
+
+/*Columns*/
+
+.column2{
+	margin: 20px 20px;
+	padding: 9px;
+	float: right;
+	display: block;
+	width: 44%;
+	background-color: green;
+}
+
+.column1{
+	margin: 20px 20px;
+	padding: 9px;
+	float: left;
+	display: block;
+	width: 44%;
+	background-color: green;
+}
+/*Columns*/
+
+
+/*gallery*/
+
+#gallery{
+	margin: auto;
+	background: #f36283;
+	padding: 0;
+	list-style-type: none;
+}
+
+#gallery a{
+	float: left;
+	display: block;
+	width: auto;
+	margin: 0 auto;
+	padding: 2px 1px 2px;
+}
+
+/*end gallery*/
+
+/*Headers*/
+h1,h2,h3{
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #666;
+	color: #112A47;
+	width: 400px;
+}
+
+h1{
+	font: bold 25px/1.5 verdana, sans-serif;
+}
+
+h2{
+	font: 20px/1.5 verdana, sans-serif;
+}
+
+h3{
+	font: 15px/1.5 verdana;
+}
+/*End Headers*/
+
+
+
+/*footer*/
+
+.footer{
+	padding: 5px;
+	margin: auto;
+	text-align: center;
+	clear: both;
+	color: white;
+}
+/*end footer*/
