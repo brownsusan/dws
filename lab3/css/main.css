@@ -1,36 +1,54 @@
 body{
-	background: #F0E9CC;
+	background: #24180E;
+	font: normal normal normal 14px/1.5 'Helvetica', 'Arial', sans-serif;
 }
 
 #main-content{
 	width: 85%;
 	margin: auto;
-	background-color: black;
+	background-color: #FCF5D7;
 }
 
 /*Navigation*/
 
 nav ul{
+	position: relative;
+	top: 0;
 	float: right;
 	list-style-type: none;
-	background-color:#A66F3F;
-	overflow: hidden;
+	background-color:#FFC087;
 	width: 100%;
-	margin:0 auto;
-	padding: 3px 0px 3px;
+	margin: 0px 0px 10px;
+	padding: 1px 0px 1px;
 }
 
 nav a{
+	position: relative;
 	float: left;
 	text-align: center;
-	font: normal normal normal 14px/1.5 'Helvetica', 'Arial', sans-serif;
 	display: block;
-	width: 24.5%;
+	width: 12%;
 	margin: auto;
 	padding: 10px 2px;
 	text-decoration: none;
 	line-height: 1.5em;
-	border-right: 1px solid #91ab3b;
+	border-right: 1px solid #A66F3F;
+}
+
+nav a:link{ 
+	color: #401801;
+}
+
+nav a:visited{
+	color: #8C2000;
+}
+
+nav a:hover{
+	color: #401700;
+}
+
+nav a:active{
+	color: #401700;
 }
 /*End Navigation*/
 
@@ -38,23 +56,29 @@ nav a{
 /*Columns*/
 
 .column2{
-	margin: 20px 20px;
+	margin: 65px 20px 10px;
 	padding: 9px;
 	float: right;
 	display: block;
 	width: 44%;
-	background-color: green;
 }
 
 .column1{
-	margin: 20px 20px;
+	margin: 0px 20px 10px;
 	padding: 9px;
 	float: left;
 	display: block;
 	width: 44%;
-	background-color: green;
 }
-/*Columns*/
+
+#sinbad{
+	float: right;
+	display: block;
+	width: auto;
+	padding: 5px;
+}
+
+/*End Columns*/
 
 
 /*gallery*/
@@ -79,13 +103,12 @@ nav a{
 /*Headers*/
 h1,h2,h3{
 	text-transform: uppercase;
-	text-shadow: 1px 1px 1px #666;
 	color: #112A47;
 	width: 400px;
 }
 
 h1{
-	font: bold 25px/1.5 verdana, sans-serif;
+	font: bold 35px/1 verdana, sans-serif;
 }
 
 h2{
