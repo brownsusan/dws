@@ -4,8 +4,9 @@ body{
 }
 
 #main-content{
-	width: 85%;
+	width: 80%;
 	margin: auto;
+	
 	background-color: #FCF5D7;
 }
 
@@ -16,7 +17,7 @@ nav ul{
 	top: 0;
 	float: right;
 	list-style-type: none;
-	background-color:#FFC087;
+	background-color:#FFD295;
 	width: 100%;
 	margin: 0px 0px 10px;
 	padding: 1px 0px 1px;
@@ -24,15 +25,15 @@ nav ul{
 
 nav a{
 	position: relative;
+	left: 50%;
 	float: left;
 	text-align: center;
 	display: block;
 	width: 12%;
-	margin: auto;
 	padding: 10px 2px;
 	text-decoration: none;
 	line-height: 1.5em;
-	border-right: 1px solid #A66F3F;
+	border-left: 1px solid #DEAA54;
 }
 
 nav a:link{ 
@@ -50,23 +51,21 @@ nav a:hover{
 nav a:active{
 	color: #401700;
 }
-/*End Navigation*/
 
 
 /*Columns*/
+.column1{
+	margin: 0px 20px 10px;
+	padding: 9px;
+	float: left;
+	display: block;
+	width: 44%;
+}
 
 .column2{
 	margin: 65px 20px 10px;
 	padding: 9px;
 	float: right;
-	display: block;
-	width: 44%;
-}
-
-.column1{
-	margin: 0px 20px 10px;
-	padding: 9px;
-	float: left;
 	display: block;
 	width: 44%;
 }
@@ -78,13 +77,16 @@ nav a:active{
 	padding: 5px;
 }
 
-/*End Columns*/
+#see-also{
+	color: black;
+}
 
 
 /*gallery*/
 
 #gallery{
-	margin: auto;
+	position: relative;
+	margin: 10px 0px 0px auto;
 	background: #f36283;
 	padding: 0;
 	list-style-type: none;
@@ -103,8 +105,9 @@ nav a:active{
 /*Headers*/
 h1,h2,h3{
 	text-transform: uppercase;
-	color: #112A47;
-	width: 400px;
+	color: #331012;
+	width: 100%;
+	border-bottom: solid 1px black;
 }
 
 h1{
@@ -118,17 +121,16 @@ h2{
 h3{
 	font: 15px/1.5 verdana;
 }
-/*End Headers*/
 
 
 
 /*footer*/
 
 .footer{
-	padding: 5px;
-	margin: auto;
+	bottom: 0;
+	background-color: #FFE5A3;
+	padding: 1px;
 	text-align: center;
 	clear: both;
-	color: white;
+	color: #000;
 }
-/*end footer*/
