@@ -15,10 +15,9 @@ body{
 	background: linear-gradient(to bottom,  #000000 0%,#111111 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#111111',GradientType=0 ); /* IE6-9 */
 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#000000',GradientType=0 ); /* IE6-9 */;
 	padding: 5px 20px;
-	font: normal normal normal 14px/1.5 helvetica, arial, sans-serif;
+	font: normal normal normal 14px/1.5 helvetica, arial, 'sans-serif';
 	color: #cecece;
 }
 
@@ -237,7 +236,6 @@ nav a:active{
 /*---------------features----------------*/
 dt{
 	font-weight: bold;
-	text-indent: none;
 }
 
 dl dd{
