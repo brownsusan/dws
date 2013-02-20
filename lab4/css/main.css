@@ -1,7 +1,6 @@
 body{
 	width: 960px;
 	margin: 0 auto;
-	padding: 0px;
 	background-image: url("../images/twinkle_twinkle.png");
 	background-position: 0% 0%;
 }
@@ -24,6 +23,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', end
 }
 
 /*---------------style---------------*/
+.main-image{
+	text-align: center;
+}
 
 ul{
 	list-style: none;
