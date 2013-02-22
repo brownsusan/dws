@@ -161,7 +161,17 @@ h3{
 	float: none;
 }
 
+h1,h2,h3{
+	font-weight: bold;
+}
 
+h2, h3{
+	color: #591202;
+}
+
+nav li{
+	line-height: 1.5em;
+}
 }
 
 
@@ -218,7 +228,19 @@ nav{
 	float: right;
 }
 
+h2, h3{
+	background: #F5D799;
+}
+
+body{
+	background: #591202;
+}
+
 #sinbad{
+	float: none;
+}
+
+#gallery a{
 	float: none;
 }
 }
