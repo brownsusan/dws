@@ -48,14 +48,21 @@ h1{
 
 /*-----------NAV----------*/
 #global_shadow{
-	background: url(../img/global_shadow.png) no-repeat -300px;
-	background-position: top;
+	background: url(../img/global_shadow.png) no-repeat top;
 	width: 220px;
 }
 
-#global{
-	position: relative;
+#global_shadow ul{
+	background: #fff;
 	margin: 0 auto;
+	width: 210px;
+}
+
+#global{
+	width: 220px;
+	position: relative;
+	margin: 0;
+	background: #fff;
 }
 
 #nav{
@@ -74,6 +81,7 @@ h1{
 }
 
 #nav li a{
+	margin-left: 30px;
 	display: block;
 	text-decoration: none;
 	color: #000;
@@ -90,28 +98,37 @@ h1{
 	margin: 0 auto;
 }
 
+address{
+	padding-top: 30px;
+}
+
+#phone{
+	padding-top: 20px;
+}
 /*-------------quote-----------*/
 
 #quote{
-	color: #cccccc;
 	background: url(../img/quote_right.gif) no-repeat bottom right #fff;
 	width: 170px;
+	padding-top: 50px;
 	margin: 0 auto;
 }
 
 #quote p{
 	font: italic bold 14px/1.5 "Trebuchet MS", Helvetica, Arial, sans-serif;
+	color: #cccccc;
 	background: url(../img/quote_left.gif) no-repeat top left;
-	width: 170px;
-	padding-top: 5px;
+	padding: 10px;
+	margin: 0 auto;
+	width: 180px;
 }
 /*------------content----------*/
 #content{
 	background: url(../img/sprocket.gif) no-repeat top right #fff;
 	width: 475px;
 	position: relative;
-	top: -347px;
 	left: 260px;
+	margin-top: -450px;
 	padding-top: 10px;
 	padding-right: 25px;	
 }
@@ -120,3 +137,6 @@ h1{
 	color: #4a7cb6;
 	font: italic normal bold 26px/1 verdana, helvetica, arial, sans-serif;
 }
+
+#content p{
+	padding: 
