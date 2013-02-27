@@ -20,7 +20,7 @@ input{
 }
 
 div{
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 input:focus{
@@ -65,7 +65,7 @@ fieldset{
 
 /*---------------- buttons ------------*/
 #submit{
-	background: #F2BF5E;
+	background: #FF647C;
 	font-size: 16px;
 	border-radius: 10px;
 	float: right;
@@ -77,7 +77,7 @@ fieldset{
 
 
 #submit:hover{
-	background: #FFC963;
+	background: #FF708B;
 	font-size: 16px;
 }
 
